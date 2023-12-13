@@ -342,7 +342,11 @@ footer p{
 }
 
 #row1{
-    margin-bottom: 16px;;
+    padding-bottom:30px;
+    
+    margin-bottom: 16px;
+
+    border-bottom: 1px solid #7289da;
 }
 
 #row2{
@@ -354,7 +358,7 @@ footer p{
 
     margin-top: 15px;
 
-    background-color: #7fffd4;
+    /* background-color: #7fffd4; */
 }
 
 #row2 button{
@@ -369,10 +373,16 @@ footer p{
 #row2 a{
     padding:5px;
     
-    background-color: #ffb6c1;
+    /* background-color: #ffb6c1; */
 
     color:black;
     text-decoration: none;
+}
+
+#row2 #fot-button{
+    padding:15px;
+    background-color: #8ea1e1;
+    color:white;
 }
 /* fine footer */
     /* fine main */

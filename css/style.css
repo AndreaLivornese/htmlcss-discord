@@ -109,9 +109,6 @@ nav ul li a{
     /* fine nav */
 
    
-   
-
-
 .her-container{
     display: flex;
     justify-content: center;
@@ -124,12 +121,55 @@ nav ul li a{
 }
 
 .her-info{
-    height: 415px;
+    /* height: 415px; */
     /* test */
     flex-grow:1;
+
+    padding:70px;
+
+    margin-bottom: 60px;
+
+    /* background-color: #ee82ee; */
     
-    background-color: #ee82ee;
+    color:white;
+    text-align: center;
+    font-size:1.2em;
 }
 
+.her-info h1{
+    margin-bottom: 50px;
+
+    font-size:3em;
+}
+
+.her-info p{
+    margin-bottom:32px;
+}
+
+.button{
+    padding:14px 30px;
+
+    border-radius: 30px;
+    border:none;
+
+    font-size: 1.2em;
+}
+
+#mac.button{
+    margin-right: 29px;
+}
+
+#browser.button{
+    background-color: #23272a;
+
+    color:white;
+
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
 
     /* fine header */

@@ -26,6 +26,28 @@ body{
 }
 
 
+h1{
+    margin-bottom: 50px;
+
+    font-size:3em;
+}
+
+h2{
+    margin-bottom: 30px;
+
+    color:#23272a;
+    line-height: 1.2em;
+    font-size:2.5em;
+}
+
+p{
+
+    color:#33373a;
+    line-height: 1.3em;
+    font-size: 1.5em;
+}
+
+
     /* header */
 header{
     padding-bottom:48px;
@@ -137,14 +159,11 @@ nav ul li a{
     font-size:1.2em;
 }
 
-.her-info h1{
-    margin-bottom: 50px;
-
-    font-size:3em;
-}
 
 .her-info p{
     margin-bottom:32px;
+    color:white;
+    font-size: 1.3em;
 }
 
 .button{
@@ -213,20 +232,7 @@ section:nth-of-type(2n){
 
 }
 
-.text-box h2{
-    margin-bottom: 30px;
 
-    color:#23272a;
-    line-height: 1.2em;
-    font-size:2.5em;
-}
-
-.text-box p{
-
-    color:#33373a;
-    line-height: 1.3em;
-    font-size: 1.5em;
-}
 /* fine prime tre section */
 
 /* quarta section */
@@ -294,6 +300,9 @@ footer{
     padding-top: 8px;
 
     background-color: #23272a;
+
+    color:white;
+
     /* border-bottom: 2px solid white; */
 }
 
@@ -308,12 +317,41 @@ footer{
     height: 600px;
     /* test */
     width: 375px;
+
+    padding-top:30px;
     
-    background-color: #f08080;
+    /* background-color: #f08080; */
+}
+
+footer h2{
+    color: #7289da
+}
+
+footer p{
+    margin-bottom: 10px;
+}
+
+.foot-social .banner{
+    width: 30px;
+
+    vertical-align: middle;
+
+}
+
+.foot-social #nat{
+    background-color: transparent;
+    border:0;
+
+    margin-bottom:30px;
+
+    color:white;
+    font-size:1em;
 }
 
 .foot-link{
     flex-grow:1;
+
+    padding-top:30px;
 
     background-color: #20b2aa;
 }

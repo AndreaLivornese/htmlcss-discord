@@ -4,7 +4,6 @@
 
     box-sizing: border-box;
 
-    /* border:1px solid red; */
 }
 
     /* reset */
@@ -52,7 +51,6 @@ p{
 header{
     padding-bottom:48px;
 
-    /* background-color: #00008b; */
     background-image: url("../img/jumbo.png");
     background-size: cover;
 }
@@ -62,15 +60,11 @@ header{
 
 nav{
     padding:16px 0PX;
-    
-    /* background-color: #add8e6; */
 }
 
 .nav-container{
     display:flex;
     justify-content: space-between;
-    
-    /* background-color:#daa520; */
 }
 
 .nav-container #nav-logo, .nav-container #nav-login{
@@ -125,10 +119,6 @@ nav ul li a{
     text-decoration: none;
 }
 
-/* .nav-container > *{
-    border:2px dashed black;
-} */
-
     /* fine nav */
 
    
@@ -144,15 +134,11 @@ nav ul li a{
 }
 
 .her-info{
-    /* height: 415px; */
-    /* test */
     flex-grow:1;
 
     padding:70px;
 
     margin-bottom: 60px;
-
-    /* background-color: #ee82ee; */
     
     color:white;
     text-align: center;
@@ -196,12 +182,8 @@ nav ul li a{
 main section .centratura {
     display: flex;
     column-gap:100px;
-    /* flex-wrap: wrap; */
-    /* justify-content: center;
-    align-items: center; */
 
     padding:58px 0;;
-   
 }
 
 section:nth-of-type(2n){
@@ -212,24 +194,11 @@ section:nth-of-type(2n){
 
 /* prime tre section */
 .img-box{
-    /* height: 520px; */
-    /* test */
-    
     width: 750px;
-
-    /* background-color: #1e90ff; */
-
 }
 
 .text-box{
-    /* height: 520px; */
-    /* test */
-    /* flex-grow:1; */
-
     padding:40px 0;;
-
-    /* background-color: #ffc0cb; */
-
 }
 
 
@@ -238,12 +207,10 @@ section:nth-of-type(2n){
 /* quarta section */
 
 .sec-box{
-    /* height: 935px; */
-    /* test */
 
     flex-grow:1;
 
-    /* background-color: #228b22; */
+    
     text-align: center;
 }
 
@@ -303,19 +270,12 @@ footer{
 
     color:white;
 
-    /* border-bottom: 2px solid white; */
+ 
 }
 
-/* footer .centratura{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
-} */
 
 .foot-social{
-    height: 600px;
-    /* test */
+
     width: 375px;
 
     padding-top:30px;
@@ -353,7 +313,23 @@ footer p{
 
     padding-top:30px;
 
-    background-color: #20b2aa;
+    /* background-color: #20b2aa; */
+}
+
+.foot-link ul{
+    list-style-type: none;
+
+}
+
+.foot-link ul li:first-of-type > a{
+    color:#7289da;
+}
+
+.foot-link a{
+    font-size:1.3em;
+    text-decoration: none;
+    color:white;
+    line-height: 1.8em;
 }
 
 .foot-link.border{

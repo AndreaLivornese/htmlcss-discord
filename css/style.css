@@ -25,19 +25,30 @@ body{
     border: 2px black dashed;
 }
 
-    /* nav */
+
+    /* header */
+header{
+    padding-bottom:48px;
+
+    /* background-color: #00008b; */
+    background-image: url("../img/jumbo.png");
+    background-size: 100% 
+}
+
+
+/* nav */
 
 nav{
     padding:16px 0PX;
     
-    background-color: #add8e6;
+    /* background-color: #add8e6; */
 }
 
 .nav-container{
     display:flex;
     justify-content: space-between;
     
-    background-color:#daa520;
+    /* background-color:#daa520; */
 }
 
 .nav-container #nav-logo, .nav-container #nav-login{
@@ -48,12 +59,17 @@ nav{
 }
 
 .nav-container #nav-login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    font-size:1.2em;
     text-align: right;
 }
 
 nav ul{
     display: flex;
-    gap:10px;
+    gap:50px;
 
     flex-grow: 1;
 
@@ -63,26 +79,38 @@ nav ul{
     list-style-type: none;
 }
 
+nav ul li{
+    font-size: 1em;
+    font-weight: 500;
+}
+
 nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+.nav-container #nav-login span{
+    padding: 12px;
+
+    border-radius: 30px;
+
+    background-color: white;
+}
+
+.nav-container #nav-login span a{
     color:black;
     text-decoration: none;
 }
 
-.nav-container > *{
+/* .nav-container > *{
     border:2px dashed black;
-}
+} */
 
     /* fine nav */
 
    
    
-    /* header */
-header{
-    padding:48px 0;
 
-    background-color: #00008b;
-
-}
 
 .her-container{
     display: flex;

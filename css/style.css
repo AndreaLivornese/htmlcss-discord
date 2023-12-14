@@ -326,7 +326,7 @@ footer p{
 }
 
 .foot-link a{
-    font-size:1.3em;
+    font-size:1em;
     text-decoration: none;
     color:white;
     line-height: 1.8em;
@@ -338,6 +338,7 @@ footer p{
 
 .row{
     display: flex;
+    flex-wrap: wrap;
 
 }
 

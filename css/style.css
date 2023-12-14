@@ -323,6 +323,7 @@ footer p{
 
 .foot-link ul li:first-of-type > a{
     color:#7289da;
+    font-weight: bold;
 }
 
 .foot-link a{
@@ -339,8 +340,11 @@ footer p{
 .row{
     display: flex;
     flex-wrap: wrap;
-
+    gap:20px;
 }
+
+
+
 
 #row1{
     padding-bottom:30px;
